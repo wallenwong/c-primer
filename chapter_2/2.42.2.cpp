@@ -12,13 +12,18 @@ int main()
             >>price;
     data1.revenue=data1.unit_sold*price;
 
+<<<<<<< HEAD
     std::cin>>data2.book_no
             >>data2.unit_sold
             >>price;
+=======
+    std::cin>>data2.book_no>>data2.unit_sold>>price;
+>>>>>>> fc60f44 (new)
     data2.revenue=data2.unit_sold*price;
 
     if(data1.book_no==data2.book_no)
     {
+<<<<<<< HEAD
         unsigned total_sold=data1.unit_sold+data2.unit_sold;//可以使用total，但是没有必要。
         double total_rev=data1.revenue+data2.revenue;
         double average=total_rev/total_sold;
@@ -31,5 +36,11 @@ int main()
     {
         std::cout<<"The ISBN must be the same."
                 <<std::endl;
+=======
+        total.unit_sold=data1.unit_sold+data2.unit_sold;
+        total.revenue=data1.revenue+data2.revenue;
+        
+>>>>>>> fc60f44 (new)
     }
+
 }
