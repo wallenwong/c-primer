@@ -1,12 +1,12 @@
 #include<iostream>
 #include<string>
-#include <windows.h>
 using namespace std;
 
 int main()
 {
-    SetConsoleOutputCP(CP_UTF8);
     string s1,s2;
+
+    cin>>s1>>s2;
 
     if(s1==s2)
     {
@@ -15,6 +15,10 @@ int main()
     else if(s1>s2)
     {
         cout<<"较大的字符串是："<<s1<<endl;
+    }
+    else
+    {
+        cout<<"较大的字符串是："<<s2<<endl;
     }
 
     return 0;
