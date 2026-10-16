@@ -16,10 +16,6 @@ int main()
     {
         cout<<"较大的字符串是："<<s1<<endl;
     }
-    else
-    {
-        cout<<"较大的字符串是："<<s2<<endl;
-    }
 
     return 0;
 }
