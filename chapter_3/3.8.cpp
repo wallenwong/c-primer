@@ -9,8 +9,13 @@ int main()
 
     cin>>s;
 
-    while(s[i]!='\n')
+    while(i<s.size())
     {
         s[i]='x';
+        ++i;
     }
+
+    cout<<s<<endl;
+
+    return 0;
 }
